@@ -1,0 +1,382 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <meta name="supported-color-schemes" content="light dark">
+    <title> Transactional Email</title>
+
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+
+        @media screen and (max-width:600px) {
+
+
+            .logo {
+
+                text-align: center !important;
+            }
+
+            .logo-img {
+                width: 100px !important;
+                padding: 0px 100px 0px 0px;
+            }
+
+            .responsive {
+                width: 100% !important;
+            }
+
+            .mobile-stacked {
+                display: inline-block !important;
+                width: 100% !important;
+                max-width: initial !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                padding-bottom: 10px !important;
+                padding-top: 10px !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            #templateColumns {
+                width: 100% !important;
+            }
+
+            .templateColumnContainer {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .columnImage {
+                height: auto !important;
+                max-width: 480px !important;
+                width: 100% !important;
+            }
+
+            .leftColumnContent {
+                font-size: 16px !important;
+                line-height: 125% !important;
+            }
+
+            .rightColumnContent {
+                font-size: 16px !important;
+                line-height: 125% !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" style="background-color: #f4f4f5" height="100%" width="100%"
+        id="bodyTable">
+        <tr>
+            <td align="center" valign="top">
+                <table align="center" border="0" style="background-color:#ffffff;" width="600" cellpadding="0"
+                    cellspacing="0" id="emailContainer" class="responsive">
+                    <!-- bike logo -->
+                    <tr>
+                        <td align="center" valign="top" style="padding:30px 0px 0px 25px;">
+                            <table class="logo-table" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td class="logo" align="left" valign="top" style="padding:0px 0px 0px 40px;">
+                                        <img class="logo-img"
+                                            src="https://d1pgqke3goo8l6.cloudfront.net/wRMe5oiRRqYamUFBvXEw_logo.png"
+                                            style="width: 56px;">
+
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- bold confirmation -->
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td align="center" style="padding-top: 35px;font-family:sans-serif;font-size: 48px;font-weight: 600;
+                                        line-height: 52px;text-decoration: none;color:#000000;">
+                                        Your order has
+                                        been confirmed </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- grey line -->
+                    <tr>
+                        <td align="center" style="padding-top: 48px; padding-bottom: 48px;">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+
+                                <tr>
+                                    <td style="width: 100%; height: 1px; max-height: 1px; background-color: #E1E4EB">
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- location address/Smiles Davis -->
+                    <tr>
+                        <td align="center">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                                <tr>
+                                    <td style="padding:0px 25px 0px 70px;"><img
+                                            src="https://d1pgqke3goo8l6.cloudfront.net/5ehc9vX9QQOff6gVsgah_start.png"
+                                            style="max-width: 16px; padding-top: 3px; vertical-align: top;">
+                                    </td>
+                                    <td
+                                        style="color: #9095A2; font-family: sans-serif; font-size: 16px; font-weight: 400; letter-spacing: -0.24px; line-height: 24px; text-decoration: none; vertical-align: top; width: 100%; min-width: 225px">
+                                        <span style="font-weight: 600; color: #000000; letter-spacing: -0.46px;">La
+                                            Mesa </span><br>
+                                        1111 Guitar Ave.<br>
+
+                                        San Diego, CA 94132
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 25px 0px 70px; vertical-align: top">
+                                        <img src="https://d1pgqke3goo8l6.cloudfront.net/KYzSiQPnSgSDHn2bv34U_Pin.png"
+                                            style="max-width: 16px;"></td>
+                                    <td
+                                        style="color: #9095A2; font-family: sans-serif; font-size: 16px; font-weight: 400; letter-spacing: -0.24px; line-height: 24px; text-decoration: none; vertical-align: top; width: 100%; padding-top: 8px; min-width: 225px">
+                                        <span style="font-weight: 600; color: #000000; letter-spacing: -0.46px;">Karen
+                                            Red</span><br>
+                                        111 North Park St<br>
+
+                                        San Diego, CA 94111
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- grey line -->
+                    <tr>
+                        <td align="center" style="padding-top: 48px; padding-bottom: 48px;">
+                            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+
+                                <tr>
+                                    <td style="width: 100%; height: 1px; max-height: 1px; background-color: #E1E4EB">
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- two button section -->
+                    <tr>
+                        <td align="center">
+
+                            <table border="0" cellpadding="0" cellspacing="0" width="90%" id="templateColumns">
+                                <tr>
+                                    <td align="center" valign="top" width="50%" class="templateColumnContainer">
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td align="center" class="leftColumnContent">
+                                                    <a href="#"
+                                                        style="width:200px;background-color: #00cc99; border: none; text-decoration: none;text-align: center;text-transform: uppercase;letter-spacing: 0.7px;line-height: 25px;
+                                                            font-size: 16px;font-weight: 700; padding: 15px 25px; color: #ffffff; border-radius: 28px; display:block; mso-padding-alt:0;text-underline-color:#333">
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt" hidden>&nbsp;</i><![endif]--><span
+                                                            style="mso-text-raise:15pt;">track delivery</span>
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                    <td align="center" valign="top" width="50%" class="templateColumnContainer">
+                                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td align="center" class="rightColumnContent">
+                                                    <a href="#"
+                                                        style="width:200px;background-color: #E1E4EB;border: 1px solid #000000; text-decoration: none;text-align: center;text-transform: uppercase;letter-spacing: 0.7px;line-height: 25px;
+                                                font-size: 16px;font-weight: 700; padding: 15px 25px; color: #000000; border-radius: 28px; display:block; mso-padding-alt:0;text-underline-color:#333">
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt" hidden>&nbsp;</i><![endif]--><span
+                                                            style="mso-text-raise:15pt;">Need help?</span>
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- black window discount share section -->
+                    <tr>
+                        <td align="center" style="padding: 30px 0px 0px 0px;">
+                            <table border="0" cellpadding="0" cellspacing="0"
+                                style="text-align: center; width: 80%;background-color: #000000;
+                            padding: 40px; margin-bottom: 100px; max-width: 540px; margin-left: auto; margin-right: auto;">
+                                <tr>
+                                    <td
+                                        style="padding:0px 0px 15px 0px;color:#ffffff;font-family: sans-serif;font-size: 32px;">
+                                        Give $100 Get
+                                        $100</td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="padding:0px 0px 15px 0px;color:#ffffff;font-family: sans-serif;font-size: 18px;">
+                                        Share your code
+                                        and give $100 in delivery fee credit to your friends. </td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="color:#ffffff;font-family:sans-serif;font-weight:700;text-transform:uppercase;font-size:72px;">
+                                        Rey #1</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table cellpadding="0" cellspacing="0" style="height: 56px; width: 100%;">
+                                            <tr>
+                                                <td class="mobile-stacked">
+                                                    <a href="#"
+                                                        style="font-family:sans-serif;background-color: #3B5998; border-radius:28px;border: none; text-align: center;text-decoration: none; text-transform:uppercase; padding: 15px 25px; color: #ffffff; display:block; mso-padding-alt:0;">
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt" hidden>&nbsp;</i><![endif]-->
+                                                        <img style="width:10px;" align="left"
+                                                            src="https://appboy-images.com/appboy/communication/assets/image_assets/images/5af5fc51dde7e80f887500c4/original.png?1526070353" /><span
+                                                            style="mso-text-raise:15pt;">Share</span>
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                                                    </a>
+                                                </td>
+                                                <td class="mobile-stacked">
+                                                    <a href="#"
+                                                        style="font-family:sans-serif;background-color: #00CC99; border-radius:28px;border: none; text-align: center;text-decoration: none; text-transform:uppercase; padding: 15px 25px; color: #ffffff; display:block; mso-padding-alt:0;">
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt" hidden>&nbsp;</i><![endif]-->
+                                                        <img style="width:20px;" align="left"
+                                                            src="https://appboy-images.com/appboy/communication/assets/image_assets/images/5afb4a6518bc0a4f33887499/original.png?1526418021" /><span
+                                                            style="mso-text-raise:15pt;">Share</span>
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                                                    </a>
+                                                </td>
+                                                <td class="mobile-stacked">
+                                                    <a href="#"
+                                                        style="font-family:sans-serif;background-color: #1DA1F2; border-radius:28px;border: none; text-align: center;text-decoration: none; text-transform:uppercase; padding: 15px 25px; color: #ffffff; display:block; mso-padding-alt:0;">
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt" hidden>&nbsp;</i><![endif]-->
+                                                        <img style="width:20px;" align="left"
+                                                            src="https://appboy-images.com/appboy/communication/assets/image_assets/images/5af5fc511b0e4d102989edcc/original.png?1526070353" /><span
+                                                            style="mso-text-raise:15pt;">Share</span>
+                                                        <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%" hidden>&nbsp;</i><![endif]-->
+                                                    </a>
+                                                </td>
+
+                                            </tr>
+
+
+                                        </table>
+
+                                    </td>
+                                </tr>
+
+
+
+                            </table>
+                        </td>
+                    </tr>
+
+
+                    <!-- footer -->
+                    <tr>
+                        <td align="center" style="padding: 0px 0px 30px 0px;">
+                            <table border="0" cellpadding="0" cellspacing="0"
+                                style="text-align: center; width: 100%;background-color: #000000;
+                             padding: 40px;margin-bottom: 10px;  max-width: 600px;margin-left: auto; margin-right: auto;">
+                                <tr>
+                                    <td align="center">
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="center"
+                                                    style="color:#ffffff;font-size:36px;font-family: sans-serif;">
+                                                    Speedy Delivery
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding-top: 24px; padding-bottom: 48px;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td align="center" style="width:100%; height: 1px; max-height: 1px;
+                                                        background-color: #EAECF2; opacity: 0.19">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td align="center"
+                                                    style=" padding:0px 0px 0px 0px;color: #ffffff; font-family: sans-serif; font-size: 16px; font-smoothing: always; font-style: normal; font-weight: 600; letter-spacing: -0.63px; line-height: 18px; mso-line-height-rule: exactly; text-decoration: none;">
+
+                                                    <a href="#"
+                                                        style="text-decoration:none;color:#ffffff;">Unsubscribe</a>
+                                                </td>
+                                                <td align="center" style="color:#9095A2; padding:0px 0px 0px 0px;">
+                                                    Speedy Delivery</td>
+
+                                            <tr>
+
+
+                                            <tr>
+                                                <td align="center"
+                                                    style="    color: #ffffff; font-family: sans-serif; font-size: 16px; font-smoothing: always; font-style: normal; font-weight: 600; letter-spacing: -0.63px; line-height: 18px; mso-line-height-rule: exactly; text-decoration: none;">
+
+                                                    <a href="#" style="text-decoration:none;color:#ffffff;">Help
+                                                        Center</a>
+                                                <td align="center" style="color:#9095A2">111
+                                                    3rd St.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                <td align="center" style="color:#9095A2;">San Diego, CA USA</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+
+
+
+                    </tr>
+
+
+
+
+                </table>
+            </td>
+
+        </tr>
+
+
+
+
+    </table>
+
+
+
+
+
+</body>
+
+
+</html>
